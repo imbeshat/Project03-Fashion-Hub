@@ -18,7 +18,7 @@ body {
 
 /* --------------- CSS for nav bar -------------- */
 nav {
-	width: 100%;
+	width: 77vw;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
@@ -54,7 +54,7 @@ li:first-child::after {
 	content: "";
 	display: block;
 	position: relative;
-	width: 68%;
+	width: 40px;
 	border-bottom: 3px solid #0f0f0f;
 	font-weight: 700;
 	margin-left: 12px;
@@ -70,9 +70,9 @@ li:first-child::after {
 	margin-right: 5px;
 }
 
-svg {
-	width: 70%;
-}
+/* svg {
+	width: 0vw;
+} */
 
 .nav-button {
 	padding: 0px 35px;
@@ -86,7 +86,7 @@ svg {
 
 /* --------------- CSS for Hero Section --------------- */
 [aria-label="banner"] {
-	width: 100%;
+	width: 77vw;
 	height: 90vh;
 	position: relative;
 }
@@ -100,7 +100,7 @@ svg {
 }
 
 .hero-container div img {
-	width: 27%;
+	width: 21vw;
 	position: relative;
 }
 
@@ -150,7 +150,7 @@ p {
 }
 
 .button-email {
-	padding: 0px 20px;
+	padding: 0 20px;
 	font-family: "Orbitron", sans-serif;
 	font-size: 20px;
 	background-color: #ffffff;
@@ -160,7 +160,7 @@ p {
 }
 
 .button-join {
-	padding: 0px 5px;
+	padding: 0 5px;
 	font-family: "Orbitron", sans-serif;
 	font-size: 20px;
 	background-color: #000000;
@@ -179,7 +179,7 @@ p {
 }
 
 .icons span img {
-	width: 4%;
+	width: 2vw;
 	margin-left: 5px;
 	margin-right: 5px;
 }
