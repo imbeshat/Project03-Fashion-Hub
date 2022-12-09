@@ -70,10 +70,6 @@ li:first-child::after {
 	margin-right: 5px;
 }
 
-/* svg {
-	width: 0vw;
-} */
-
 .nav-button {
 	padding: 0px 35px;
 	font-family: "Poppins", sans-serif;
