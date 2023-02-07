@@ -15,12 +15,11 @@ body {
 }
 
 .container {
-	margin: 50px 170px;
+	margin: 50px 10px;
 }
 
 /* --------------- CSS for nav bar -------------- */
 nav {
-	width: 77vw;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
@@ -84,16 +83,14 @@ li:first-child::after {
 
 /* --------------- CSS for Hero Section --------------- */
 [aria-label="banner"] {
-	width: 77vw;
-	height: 90vh;
 	position: relative;
 }
 
 .square img {
 	position: absolute;
 	z-index: -1;
-	margin-top: 279px;
-	margin-left: 110px;
+	top: 0;
+	left: 0;
 	width: 22%;
 }
 
